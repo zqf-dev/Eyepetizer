@@ -1,4 +1,4 @@
-中文 | [English](README-en.md)
+English | [中文](README.md)
 
 # Eyepetizer
 [![](https://img.shields.io/badge/Google-Developer%20Library-4c86ea.svg?style=flat?style=flat-square&logo=Android)][33]
@@ -6,16 +6,16 @@
 [![](https://img.shields.io/badge/API-21%2B-52c82d.svg?style=flat)][35]
 [![](https://img.shields.io/badge/GitHub-vipyinzhiwei-5674dd.svg?style=flat?style=flat-square&logo=GitHub)][36]
 
-基于 [Kotlin][1] 语言仿写「[开眼 Eyepetizer][2]」的一个短视频 Android 客户端项目，采用 [Jetpack][3] + [协程][30]实现的 MVVM 架构。
+A short video Android client project based on [Kotlin][1] language imitation "[Open Eyepetizer][2]", using the MVVM architecture implemented by [Jetpack][3] + [Coroutine][30].
 
-## 简介
-这是一个高仿「[开眼 Eyepetizer][2]」的短视频 Android 客户端项目，个人觉得这款 App 的 UI 设计风格很好看，界面简洁清新，通过此项目，进行相关技术的学习与整合。
+## Brief introduction
+This is a short video Android client project with a high imitation of "[Open Eyepetizer][2]". Personally, I feel that the UI design style of this app is very beautiful, and the interface is simple and fresh. Through this project, I will learn and integrate related technologies.
 
-整个项目没有复杂的封装，同时项目开发规范参考了 [Kotlin 官方文档][4] 与第三方 [AndroidStandardDevelop][5]。个人认为代码还是比较容易阅读理解的，因此也非常适合新手入门 Kotlin 语言，同时更快地掌握 Jetpack 组件的使用。
+There is no complicated encapsulation of the entire project, and the project development specifications refer to [Kotlin official documents][4] and third-party [AndroidStandardDevelop][5]. Personally think that the code is relatively easy to read and understand, so it is also very suitable for novices to get started with the Kotlin language, and at the same time master the use of Jetpack components faster.
 
-另外值得一提的是，所有 UI 都是经过标注工具测量后的，无论是字体颜色、大小、间距等几乎都是**像素级**模仿的「开眼 Eyepetizer」Android 客户端 App，对应的 v6.3.1 版本。（[查看历史版本][31]）
+It is also worth mentioning that all UIs are measured by the annotation tool, and the font color, size, spacing, etc. are almost **pixel-level** imitated "Open EyeEyeizer" Android client App, corresponding to v6 .3.1 version . ([View historical version][31])
 
-## 屏幕截图
+## Screenshots
 <img src="screenshots/snapshot1.png" width="50%"/><img src="screenshots/snapshot2.png" width="50%"/>
 <img src="screenshots/snapshot3.png" width="50%"/><img src="screenshots/snapshot4.png" width="50%"/>
 <img src="screenshots/snapshot5.png" width="50%"/><img src="screenshots/snapshot6.png" width="50%"/>
@@ -27,65 +27,65 @@
 <img src="screenshots/snapshot9.png" width="50%"/><img src="screenshots/snapshot13.png" width="50%"/>
 <br></br>
 
-图片加载不出来？附上[博客地址][6]
+Can't load images? Attach [blog address][6]
 <br></br>
 
-## 下载体验
-- 扫描二维码安装：<br></br>
+## Download experience
+- Scan the QR code to install:<br></br>
    <a href="https://www.pgyer.com/eyepetizer"><img src="eyepetizer.png"/></a>
 
-- [点击下载 eyepetizer.apk][7]
+- [Click to download eyepetizer.apk][7]
 
-## 主要功能
-- 观看优质高清短视频与评论。
-- 浏览社区图文与视频创作。
-- 查看每日新鲜资讯与热搜关键词。
-- 分享精彩短视频与新鲜资讯等。
+## The main function
+- Watch high-quality HD short videos and comments.
+- Browse community graphics and video creation.
+- Check daily fresh news and hot search keywords.
+- Share exciting short videos and fresh information.
 
-## 使用工具
-- [Vector Asset Studio][8] 图标制作
-- [iconfont][9] 图标/设计
-- [Postman][10] API 调试工具
-- [Charles][11] API 数据抓包
-- [PxCook][12] 标注工具
-- [开发助手][13] 反编译应用、提取应用 Apk 等
+## Use tools
+- [Vector Asset Studio][8] Icon making
+- [iconfont][9] Icon/Design
+- [Postman][10] API Debugger
+- [Charles][11] API Packet capture
+- [PxCook][12] Annotation tool
+- [Development assistant][13] Decompile application, extract application Apk, etc.
 
-## 更新日志
-[查看发布历史更新日志][32]
+## Change Log
+[View Release History Update Log][32]
 
-## 关于我
-- RealName : 殷志威
+## About me
+- RealName : YinZhiWei
 - NickName : vipyinzhiwei
 - WeChat : vipyinzhiwei
 - Email : <vipyinzhiwei@gmail.com>
 - Blog : <https://www.vipyinzhiwei.com>
 
-## 鼓励
-通过这个项目希望能够帮助大家更好地学习 Jetpack 与 MVVM 架构。如果你喜欢 Eyepetizer 的设计，感觉本项目的源代码对你的学习有所帮助，可以点右上角 **"Star"** 支持一下，谢谢！^_^
+## Encourage
+Through this project, I hope to help you better learn Jetpack and MVVM architecture. If you like the design of Eyepetizer, and feel that the source code of this project is helpful for your study, you can click **"Star"** in the upper right corner to support it, thank you! ^_^
 
-## 致谢
-- [Retrofit][14] 网络请求框架封装
-- [Glide][15] 图片加载
-- [OkHttp][16] 网络请求
-- [Gson][17] Gson 解析
-- [Glide Transformations][18] 图像转换
-- [Eventbus][19] 事件总线
-- [Permissionx][20] 动态请求权限封装
-- [FlycoTabLayout][21] TabLayout封装
-- [SmartRefreshLayout][22] 下拉刷新框架
-- [BannerViewPager][23] Banner轮播图
-- [Immersionbar][24] 状态栏管理
-- [PhotoView][25] 支持手势缩放图片
-- [Circleimageview][26] 圆形图像
-- [GSYVideoPlayer][27] 视频播放器
-- [VasSonic][28] 提升H5首屏加载速度
-- [Leakcanary][29] 内存泄漏检测
-- [Kotlinx Coroutines][30] 简化代码管理后台线程与回调
+## Express one's thanks
+- [Retrofit][14] Network request framework encapsulation
+- [Glide][15] Image loading
+- [OkHttp][16] Network request
+- [Gson][17] Gson analysis
+- [Glide Transformations][18] Image conversion
+- [Eventbus][19] Event bus
+- [Permissionx][20] Dynamic request permission encapsulation
+- [FlycoTabLayout][21] TabLayout encapsulation
+- [SmartRefreshLayout][22] Pull down refresh frame
+- [BannerViewPager][23] Banner carousel
+- [Immersionbar][24] Status bar management
+- [PhotoView][25] Support gesture zoom picture
+- [Circleimageview][26] Round image
+- [GSYVideoPlayer][27] Video player
+- [VasSonic][28] Improve H5 first screen loading speed
+- [Leakcanary][29] Memory leak detection
+- [Kotlinx Coroutines][30] Simplify code management background threads and callbacks
 
 
 ## License
 
-**所有数据来源于开眼，仅供学习和交流使用，严禁用于任何商业用途，原作公司拥有所有权利。**
+**All data comes from open eyes, only for learning and communication use, strictly prohibited for any commercial use, the original company has all rights.**
 
 ```
 Copyright (c) 2020. vipyinzhiwei <vipyinzhiwei@gmail.com>
