@@ -1,42 +1,7 @@
-中文 | [English](README-en.md)
-
-# Eyepetizer
-[![](https://img.shields.io/badge/Google-Developer%20Library-4c86ea.svg?style=flat?style=flat-square&logo=Android)][33]
-[![](https://img.shields.io/badge/License-Apache%202.0-1d7fbf.svg?style=flat)][34]
-[![](https://img.shields.io/badge/API-21%2B-52c82d.svg?style=flat)][35]
-[![](https://img.shields.io/badge/GitHub-vipyinzhiwei-5674dd.svg?style=flat?style=flat-square&logo=GitHub)][36]
-
-基于 [Kotlin][1] 语言仿写「[开眼 Eyepetizer][2]」的一个短视频 Android 客户端项目，采用 [Jetpack][3] + [协程][30]实现的 MVVM 架构。
-
-## 简介
-这是一个高仿「[开眼 Eyepetizer][2]」的短视频 Android 客户端项目，个人觉得这款 App 的 UI 设计风格很好看，界面简洁清新，通过此项目，进行相关技术的学习与整合。
-
-整个项目没有复杂的封装，同时项目开发规范参考了 [Kotlin 官方文档][4] 与第三方 [AndroidStandardDevelop][5]。个人认为代码还是比较容易阅读理解的，因此也非常适合新手入门 Kotlin 语言，同时更快地掌握 Jetpack 组件的使用。
-
-另外值得一提的是，所有 UI 都是经过标注工具测量后的，无论是字体颜色、大小、间距等几乎都是**像素级**模仿的「开眼 Eyepetizer」Android 客户端 App，对应的 v6.3.1 版本。（[查看历史版本][31]）
-
-## 屏幕截图
-<img src="screenshots/snapshot1.png" width="50%"/><img src="screenshots/snapshot2.png" width="50%"/>
-<img src="screenshots/snapshot3.png" width="50%"/><img src="screenshots/snapshot4.png" width="50%"/>
-<img src="screenshots/snapshot5.png" width="50%"/><img src="screenshots/snapshot6.png" width="50%"/>
-<img src="screenshots/snapshot7.png" width="50%"/><img src="screenshots/snapshot8.png" width="50%"/>
-<img src="screenshots/snapshot10.png" width="50%"/><img src="screenshots/snapshot11.png" width="50%"/>
-<br></br>
-<img src="screenshots/snapshot12.png"/>
-<br></br>
-<img src="screenshots/snapshot9.png" width="50%"/><img src="screenshots/snapshot13.png" width="50%"/>
-<br></br>
-
-图片加载不出来？附上[博客地址][6]
-<br></br>
-
-## 下载体验
-- 扫描二维码安装：<br></br>
-   <a href="https://www.pgyer.com/eyepetizer"><img src="eyepetizer.png"/></a>
-
-- [点击下载 eyepetizer.apk][7]
+### 本项目主要引用[VIPyinzhiwei](https://github.com/VIPyinzhiwei/Eyepetizer)，仅用于学习参考。不做其它任何用途。感谢作者！
 
 ## 主要功能
+
 - 观看优质高清短视频与评论。
 - 浏览社区图文与视频创作。
 - 查看每日新鲜资讯与热搜关键词。
@@ -49,19 +14,6 @@
 - [Charles][11] API 数据抓包
 - [PxCook][12] 标注工具
 - [开发助手][13] 反编译应用、提取应用 Apk 等
-
-## 更新日志
-[查看发布历史更新日志][32]
-
-## 关于我
-- RealName : 殷志威
-- NickName : vipyinzhiwei
-- WeChat : vipyinzhiwei
-- Email : <vipyinzhiwei@gmail.com>
-- Blog : <https://www.vipyinzhiwei.com>
-
-## 鼓励
-通过这个项目希望能够帮助大家更好地学习 Jetpack 与 MVVM 架构。如果你喜欢 Eyepetizer 的设计，感觉本项目的源代码对你的学习有所帮助，可以点右上角 **"Star"** 支持一下，谢谢！^_^
 
 ## 致谢
 - [Retrofit][14] 网络请求框架封装
